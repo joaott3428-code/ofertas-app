@@ -1,0 +1,142 @@
+[
+  {
+    "mercado": "Guanabara",
+    "produto": "Arroz Tio João 5 kg",
+    "preco": 27.95,
+    "validade": "2026-11-25",
+    "encarte": "https://www.catalogosofertas.com.br/ofertas/arroz/supermercados-guanabara"
+  },
+  {
+    "mercado": "Guanabara",
+    "produto": "Leite UHT desnatado ou semidesnatado",
+    "preco": 3.99,
+    "validade": "2026-11-25",
+    "encarte": "https://www.catalogosofertas.com.br/ofertas/leite/supermercados-guanabara"
+  },
+  {
+    "mercado": "Guanabara",
+    "produto": "Carne moída Friboi tubete 500 g",
+    "preco": 16.98,
+    "validade": "2026-11-25",
+    "encarte": "https://www.catalogosofertas.com.br/ofertas/carne/supermercados-guanabara"
+  },
+  {
+    "mercado": "Guanabara",
+    "produto": "Biscoito recheado maltado Piraquê 85 g",
+    "preco": 1.79,
+    "validade": "2026-11-25",
+    "encarte": "https://www.catalogosofertas.com.br/ofertas/biscoito/supermercados-guanabara"
+  },
+  {
+    "mercado": "Supermarket",
+    "produto": "Leite Elegê UHT 1 L",
+    "preco": 4.47,
+    "validade": "2026-11-25",
+    "encarte": "https://redesupermarket.com.br/ofertas/"
+  },
+  {
+    "mercado": "Supermarket",
+    "produto": "Ovos brancos 20 unidades",
+    "preco": 9.98,
+    "validade": "2026-11-25",
+    "encarte": "https://redesupermarket.com.br/ofertas/"
+  },
+  {
+    "mercado": "Supermarket",
+    "produto": "Carré suíno congelado (kg)",
+    "preco": 14.97,
+    "validade": "2026-11-25",
+    "encarte": "https://redesupermarket.com.br/ofertas/"
+  },
+  {
+    "mercado": "Supermarket",
+    "produto": "Filé de coxa/sobrecoxa de frango Lar (kg)",
+    "preco": 13.97,
+    "validade": "2026-11-25",
+    "encarte": "https://redesupermarket.com.br/ofertas/"
+  },
+  {
+    "mercado": "Supermarket",
+    "produto": "Banana Prata (kg)",
+    "preco": 6.98,
+    "validade": "2026-11-25",
+    "encarte": "https://redesupermarket.com.br/ofertas/"
+  },
+  {
+    "mercado": "Mundial",
+    "produto": "Refresco Parati 15 g (app Mundial Total)",
+    "preco": 0.85,
+    "validade": "2026-12-02",
+    "encarte": "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas"
+  },
+  {
+    "mercado": "Mundial",
+    "produto": "Biscoito Parati 85 g (app Mundial Total)",
+    "preco": 1.77,
+    "validade": "2026-12-02",
+    "encarte": "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas"
+  },
+  {
+    "mercado": "Mundial",
+    "produto": "Chuchu a granel (kg) (app Mundial Total)",
+    "preco": 1.98,
+    "validade": "2026-11-25",
+    "encarte": "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas"
+  },
+  {
+    "mercado": "Mundial",
+    "produto": "Farinha de trigo Farina 1 kg (app Mundial Total)",
+    "preco": 2.87,
+    "validade": "2026-12-02",
+    "encarte": "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas"
+  },
+  {
+    "mercado": "Mundial",
+    "produto": "Molho de tomate Knorr sachê 300 g (app Mundial Total)",
+    "preco": 2.68,
+    "validade": "2026-12-02",
+    "encarte": "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas"
+  },
+  {
+    "mercado": "Bom Desconto",
+    "produto": "Margarina Cremosy 500 g (com Clube)",
+    "preco": 4.99,
+    "validade": "2026-11-24",
+    "encarte": "https://supermercadosbomdesconto.com.br/"
+  },
+  {
+    "mercado": "Bom Desconto",
+    "produto": "Requeijão Itambé Cremoso copo 200 g (com Clube)",
+    "preco": 8.98,
+    "validade": "2026-11-24",
+    "encarte": "https://supermercadosbomdesconto.com.br/"
+  },
+  {
+    "mercado": "Bom Desconto",
+    "produto": "Salsicha Hot Dog Perdigão (kg) (com Clube)",
+    "preco": 8.98,
+    "validade": "2026-11-24",
+    "encarte": "https://supermercadosbomdesconto.com.br/"
+  },
+  {
+    "mercado": "Bom Desconto",
+    "produto": "Hambúrguer Sadia Tradicional ou Churrasco 672 g (com Clube)",
+    "preco": 13.98,
+    "validade": "2026-11-24",
+    "encarte": "https://supermercadosbomdesconto.com.br/"
+  },
+  {
+    "mercado": "Bom Desconto",
+    "produto": "Arroz Agulhinha Tchê 5 kg (com Clube)",
+    "preco": 16.98,
+    "validade": "2026-11-24",
+    "encarte": "https://supermercadosbomdesconto.com.br/"
+  },
+  {
+    "mercado": "Bom Desconto",
+    "produto": "Mortadela Ouro Perdigão (kg) (com Clube)",
+    "preco": 21.98,
+    "validade": "2026-11-24",
+    "encarte": "https://supermercadosbomdesconto.com.br/"
+  }
+]
