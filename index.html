@@ -41,9 +41,13 @@
       <button type="button" data-busca="leite">Leite</button>
       <button type="button" data-busca="ovos">Ovos</button>
     </div>
+    <div class="filtros">
+      <button id="sem-condicao" class="filtro-condicao" type="button" aria-pressed="false">Só preços sem clube/app/CPF</button>
+    </div>
   </header>
 
   <main>
+    <div id="avisos" class="avisos" aria-live="polite"></div>
     <p id="status" class="status" role="status" aria-live="polite"></p>
     <div id="lista"></div>
   </main>
@@ -52,15 +56,16 @@
     <details class="ajuda">
       <summary>Como usar e como atualizar</summary>
       <div class="ajuda__conteudo">
-        <p><strong>Buscar:</strong> digite o nome do produto. Aparecem as ofertas de todos os mercados, da menor para a maior preço.</p>
+        <p><strong>Buscar:</strong> digite o nome do produto. Aparecem as ofertas de todos os mercados, do menor para o maior preço.</p>
         <p><strong>Na lista:</strong> as ofertas que terminam hoje ganham o selo “Último dia” e vêm primeiro em cada mercado. Quando o mesmo produto aparece em mais de um mercado, ele também entra em “Compare entre mercados”, com o menor preço de cada rede.</p>
-        <p><strong>Histórico:</strong> ao trocar a lista semanal, o app guarda a anterior no celular e mostra “caiu de” ou “subiu de” quando o preço muda. Na primeira vez não há comparação ainda.</p>
-        <p><strong>Atualizar a lista:</strong> se o site estiver publicado, basta atualizar o <code>ofertas.json</code> no computador. Se estiver fora do ar, toque em “Escolher arquivo ofertas.json” e selecione a versão nova no celular. Para voltar a usar a lista do site, toque em “Voltar à lista publicada”.</p>
+        <p><strong>Lista antiga:</strong> quando a lista publicada passa de um dia, aparece um aviso com a data da pesquisa. Confira o encarte antes de comprar.</p>
+        <p><strong>Preço com e sem condição:</strong> quando a fonte publica os dois valores, o cartão mostra o preço com Clube/app/CPF no destaque e o preço sem clube/app/CPF logo abaixo. Se a fonte não publica o valor sem condição, aparece “sem app: ver encarte” (ou “sem CPF: ver encarte”). O filtro “Só preços sem clube/app/CPF” troca o destaque para o preço sem condição.</p>
+        <p><strong>Fonte:</strong> cada cartão diz de onde veio o preço. Quando a fonte é um agregador, o texto fica destacado.</p>
+        <p><strong>Histórico:</strong> ao trocar a lista semanal, o app compara pelo ID da oferta e mostra “caiu de” ou “subiu de” mesmo se o nome mudar um pouco. A lista sempre vem do site publicado.</p>
+        <p><strong>Atualizar a lista:</strong> toque em “Atualizar agora” para forçar a busca da versão publicada. Não há mais opção de escolher um arquivo no celular.</p>
         <p><strong>Como app:</strong> no navegador, use “Adicionar à tela inicial” (Chrome) ou “Compartilhar → Adicionar à Tela de Início” (iPhone).</p>
-        <button id="atualizar" class="botao-secundario" type="button">Escolher arquivo ofertas.json</button>
-        <button id="restaurar" class="botao-secundario" type="button" hidden>Voltar à lista publicada</button>
-        <input id="arquivo" type="file" accept=".json,application/json" hidden>
-        <p id="mensagem-arquivo" class="mensagem" role="status" aria-live="polite"></p>
+        <button id="atualizar-agora" class="botao-secundario" type="button">Atualizar agora (lista publicada)</button>
+        <p id="mensagem-atualizar" class="mensagem" role="status" aria-live="polite"></p>
       </div>
     </details>
     <p class="rodape">Ofertas vencidas são escondidas automaticamente.</p>

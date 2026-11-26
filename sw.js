@@ -1,4 +1,4 @@
-const CACHE = "ofertas-semana-v5";
+const CACHE = "ofertas-semana-v7";
 const ARQUIVOS = ["./", "./index.html", "./estilo.css", "./app.js", "./ofertas.json", "./icone.svg", "./icone-180.png", "./icone-192.png", "./icone-512.png", "./manifest.webmanifest"];
 
 self.addEventListener("install", evento => {
@@ -13,6 +13,10 @@ self.addEventListener("activate", evento => {
   );
 });
 
+self.addEventListener("message", evento => {
+  if (evento.data && evento.data.type === "SKIP_WAITING") self.skipWaiting();
+});
+
 self.addEventListener("fetch", evento => {
   const url = new URL(evento.request.url);
   if (evento.request.method !== "GET" || url.origin !== self.location.origin) return;
@@ -22,10 +26,15 @@ self.addEventListener("fetch", evento => {
       fetch(evento.request)
         .then(resposta => {
           const copia = resposta.clone();
-          caches.open(CACHE).then(cache => cache.put(evento.request, copia));
+          const canonica = new Request(new URL("ofertas.json", self.location.href).href);
+          caches.open(CACHE).then(cache => Promise.all([
+            cache.put(canonica, copia.clone()),
+            cache.put(evento.request, copia)
+          ]));
           return resposta;
         })
-        .catch(() => caches.match(evento.request))
+        .catch(() => caches.match(evento.request)
+          || caches.match(new URL("ofertas.json", self.location.href).href))
     );
     return;
   }

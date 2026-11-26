@@ -1,247 +1,390 @@
-[
-  {
-    "mercado": "Guanabara",
-    "produto": "Arroz Tio João 5 kg (preço segundo Catalogosofertas)",
-    "preco": 27.95,
-    "validade": "2026-11-25",
-    "encarte": "https://www.supermercadosguanabara.com.br/encarte"
-  },
-  {
-    "mercado": "Guanabara",
-    "produto": "Leite UHT desnatado ou semidesnatado (preço segundo Catalogosofertas)",
-    "preco": 3.99,
-    "validade": "2026-11-25",
-    "encarte": "https://www.supermercadosguanabara.com.br/encarte"
-  },
-  {
-    "mercado": "Guanabara",
-    "produto": "Carne moída Friboi tubete 500 g (preço segundo Catalogosofertas)",
-    "preco": 16.98,
-    "validade": "2026-11-25",
-    "encarte": "https://www.supermercadosguanabara.com.br/encarte"
-  },
-  {
-    "mercado": "Guanabara",
-    "produto": "Biscoito recheado maltado Piraquê 85 g (preço segundo Catalogosofertas)",
-    "preco": 1.79,
-    "validade": "2026-11-25",
-    "encarte": "https://www.supermercadosguanabara.com.br/encarte"
-  },
-  {
-    "mercado": "Supermarket",
-    "produto": "Cenoura, abacate ou melão amarelo (kg) (com CPF cadastrado)",
-    "preco": 3.99,
-    "validade": "2026-11-25",
-    "encarte": "https://redesupermarket.com.br/ofertas/"
-  },
-  {
-    "mercado": "Supermarket",
-    "produto": "Abóbora, aipim ou laranja pera (kg) (com CPF cadastrado)",
-    "preco": 2.98,
-    "validade": "2026-11-25",
-    "encarte": "https://redesupermarket.com.br/ofertas/"
-  },
-  {
-    "mercado": "Supermarket",
-    "produto": "Manga Palmer (kg) (com CPF cadastrado)",
-    "preco": 4.95,
-    "validade": "2026-11-25",
-    "encarte": "https://redesupermarket.com.br/ofertas/"
-  },
-  {
-    "mercado": "Supermarket",
-    "produto": "Maçã Gala 850 g (com CPF cadastrado)",
-    "preco": 4.95,
-    "validade": "2026-11-25",
-    "encarte": "https://redesupermarket.com.br/ofertas/"
-  },
-  {
-    "mercado": "Supermarket",
-    "produto": "Uva vermelha 500 g (com CPF cadastrado)",
-    "preco": 6.95,
-    "validade": "2026-11-25",
-    "encarte": "https://redesupermarket.com.br/ofertas/"
-  },
-  {
-    "mercado": "Supermarket",
-    "produto": "Banana Prata (kg) (com CPF cadastrado)",
-    "preco": 6.98,
-    "validade": "2026-11-25",
-    "encarte": "https://redesupermarket.com.br/ofertas/"
-  },
-  {
-    "mercado": "Supermarket",
-    "produto": "Pêssego (kg) (com CPF cadastrado)",
-    "preco": 8.98,
-    "validade": "2026-11-25",
-    "encarte": "https://redesupermarket.com.br/ofertas/"
-  },
-  {
-    "mercado": "Supermarket",
-    "produto": "Alho (kg) (com CPF cadastrado)",
-    "preco": 18.9,
-    "validade": "2026-11-25",
-    "encarte": "https://redesupermarket.com.br/ofertas/"
-  },
-  {
-    "mercado": "Supermarket",
-    "produto": "Ovos brancos 20 unidades (com CPF cadastrado)",
-    "preco": 9.98,
-    "validade": "2026-11-25",
-    "encarte": "https://redesupermarket.com.br/ofertas/"
-  },
-  {
-    "mercado": "Supermarket",
-    "produto": "Carré suíno congelado (kg) (com CPF cadastrado)",
-    "preco": 14.97,
-    "validade": "2026-11-25",
-    "encarte": "https://redesupermarket.com.br/ofertas/"
-  },
-  {
-    "mercado": "Supermarket",
-    "produto": "Filé de coxa/sobrecoxa de frango Lar (kg) (com CPF cadastrado)",
-    "preco": 13.97,
-    "validade": "2026-11-25",
-    "encarte": "https://redesupermarket.com.br/ofertas/"
-  },
-  {
-    "mercado": "Supermarket",
-    "produto": "Leite Elegê UHT 1 L (com CPF cadastrado)",
-    "preco": 4.47,
-    "validade": "2026-11-25",
-    "encarte": "https://redesupermarket.com.br/ofertas/"
-  },
-  {
-    "mercado": "Supermarket",
-    "produto": "Ace ou Invicto 1,5/1,6 kg (com CPF cadastrado)",
-    "preco": 9.98,
-    "validade": "2026-11-25",
-    "encarte": "https://redesupermarket.com.br/ofertas/"
-  },
-  {
-    "mercado": "Supermarket",
-    "produto": "OMO 3 L (com CPF cadastrado)",
-    "preco": 29.9,
-    "validade": "2026-11-25",
-    "encarte": "https://redesupermarket.com.br/ofertas/"
-  },
-  {
-    "mercado": "Supermarket",
-    "produto": "Toalhas Meu Bebê 100 unidades (com CPF cadastrado)",
-    "preco": 7.98,
-    "validade": "2026-11-25",
-    "encarte": "https://redesupermarket.com.br/ofertas/"
-  },
-  {
-    "mercado": "Mundial",
-    "produto": "Bacalhau Morhua legítimo (kg)",
-    "preco": 159.8,
-    "validade": "2026-11-26",
-    "encarte": "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas"
-  },
-  {
-    "mercado": "Mundial",
-    "produto": "Vodka Grey Goose 750 ml (app Mundial Total)",
-    "preco": 139.9,
-    "validade": "2026-12-02",
-    "encarte": "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas"
-  },
-  {
-    "mercado": "Mundial",
-    "produto": "Frigideira de indução Tramontina inox (app Mundial Total)",
-    "preco": 129.9,
-    "validade": "2026-11-29",
-    "encarte": "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas"
-  },
-  {
-    "mercado": "Mundial",
-    "produto": "Amêndoas sem casca importadas a granel (kg) (app Mundial Total)",
-    "preco": 105.9,
-    "validade": "2026-12-02",
-    "encarte": "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas"
-  },
-  {
-    "mercado": "Mundial",
-    "produto": "Nozes sem casca importadas a granel (kg) (app Mundial Total)",
-    "preco": 105.9,
-    "validade": "2026-12-02",
-    "encarte": "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas"
-  },
-  {
-    "mercado": "Mundial",
-    "produto": "Cerveja Heineken barril 5 L (app Mundial Total)",
-    "preco": 99.9,
-    "validade": "2026-11-29",
-    "encarte": "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas"
-  },
-  {
-    "mercado": "Prezunic",
-    "produto": "Ovos vermelhos Happy Eggs 20 unidades (com Clube Prezunic)",
-    "preco": 13.99,
-    "validade": "2026-11-25",
-    "encarte": "https://www.prezunic.com.br/encartes"
-  },
-  {
-    "mercado": "Prezunic",
-    "produto": "Alho a granel (kg) (com Clube Prezunic)",
-    "preco": 17.99,
-    "validade": "2026-11-25",
-    "encarte": "https://www.prezunic.com.br/encartes"
-  },
-  {
-    "mercado": "Prezunic",
-    "produto": "Carne moída Friboi congelada 500 g (com Clube Prezunic)",
-    "preco": 13.98,
-    "validade": "2026-11-25",
-    "encarte": "https://www.prezunic.com.br/encartes"
-  },
-  {
-    "mercado": "Prezunic",
-    "produto": "Acém ou paleta bovina Maturatta (kg) (com Clube Prezunic)",
-    "preco": 36.98,
-    "validade": "2026-11-26",
-    "encarte": "https://www.prezunic.com.br/encartes"
-  },
-  {
-    "mercado": "Prezunic",
-    "produto": "Coração da alcatra Maturatta (kg) (com Clube Prezunic)",
-    "preco": 59.98,
-    "validade": "2026-11-26",
-    "encarte": "https://www.prezunic.com.br/encartes"
-  },
-  {
-    "mercado": "Prezunic",
-    "produto": "Contrafilé tradicional ou filé de costela Maturatta (kg) (com Clube Prezunic)",
-    "preco": 52.98,
-    "validade": "2026-11-26",
-    "encarte": "https://www.prezunic.com.br/encartes"
-  },
-  {
-    "mercado": "Prezunic",
-    "produto": "Sobrecoxa de frango Seara ou Sadia congelada 1 kg (com Clube Prezunic)",
-    "preco": 12.98,
-    "validade": "2026-11-26",
-    "encarte": "https://www.prezunic.com.br/encartes"
-  },
-  {
-    "mercado": "Prezunic",
-    "produto": "Hambúrguer Perdigão congelado 672 g (com Clube Prezunic)",
-    "preco": 13.99,
-    "validade": "2026-11-26",
-    "encarte": "https://www.prezunic.com.br/encartes"
-  },
-  {
-    "mercado": "Prezunic",
-    "produto": "Linguiça de pernil Perdigão (kg) (com Clube Prezunic)",
-    "preco": 14.99,
-    "validade": "2026-11-26",
-    "encarte": "https://www.prezunic.com.br/encartes"
-  },
-  {
-    "mercado": "Prezunic",
-    "produto": "Óleo de soja Liza ou Soya 900 ml (com Clube Prezunic)",
-    "preco": 7.99,
-    "validade": "2026-11-26",
-    "encarte": "https://www.prezunic.com.br/encartes"
-  }
-]
+{
+  "atualizado_em": "2026-11-26",
+  "ofertas": [
+    {
+      "id": "guanabara-arroz-tio-joao-5-kg-preco",
+      "mercado": "Guanabara",
+      "produto": "Arroz Tio João 5 kg (preço segundo Catalogosofertas)",
+      "preco": 27.95,
+      "validade": "2026-11-25",
+      "condicao": "",
+      "fonte": "Catalogosofertas (agregador)",
+      "encarte": "https://www.supermercadosguanabara.com.br/encarte",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "guanabara-leite-uht-desnatado-ou-semidesnatado-preco",
+      "mercado": "Guanabara",
+      "produto": "Leite UHT desnatado ou semidesnatado (preço segundo Catalogosofertas)",
+      "preco": 3.99,
+      "validade": "2026-11-25",
+      "condicao": "",
+      "fonte": "Catalogosofertas (agregador)",
+      "encarte": "https://www.supermercadosguanabara.com.br/encarte",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "guanabara-carne-moida-friboi-tubete-500-g",
+      "mercado": "Guanabara",
+      "produto": "Carne moída Friboi tubete 500 g (preço segundo Catalogosofertas)",
+      "preco": 16.98,
+      "validade": "2026-11-25",
+      "condicao": "",
+      "fonte": "Catalogosofertas (agregador)",
+      "encarte": "https://www.supermercadosguanabara.com.br/encarte",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "guanabara-biscoito-recheado-maltado-piraque-85-g",
+      "mercado": "Guanabara",
+      "produto": "Biscoito recheado maltado Piraquê 85 g (preço segundo Catalogosofertas)",
+      "preco": 1.79,
+      "validade": "2026-11-25",
+      "condicao": "",
+      "fonte": "Catalogosofertas (agregador)",
+      "encarte": "https://www.supermercadosguanabara.com.br/encarte",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "supermarket-cenoura-abacate-ou-melao-amarelo-kg",
+      "mercado": "Supermarket",
+      "produto": "Cenoura, abacate ou melão amarelo (kg) (com CPF cadastrado)",
+      "preco": 3.99,
+      "validade": "2026-11-25",
+      "condicao": "CPF cadastrado",
+      "fonte": "Site oficial Supermarket",
+      "encarte": "https://redesupermarket.com.br/ofertas/",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "supermarket-abobora-aipim-ou-laranja-pera-kg",
+      "mercado": "Supermarket",
+      "produto": "Abóbora, aipim ou laranja pera (kg) (com CPF cadastrado)",
+      "preco": 2.98,
+      "validade": "2026-11-25",
+      "condicao": "CPF cadastrado",
+      "fonte": "Site oficial Supermarket",
+      "encarte": "https://redesupermarket.com.br/ofertas/",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "supermarket-manga-palmer-kg-com-cpf-cadastrado",
+      "mercado": "Supermarket",
+      "produto": "Manga Palmer (kg) (com CPF cadastrado)",
+      "preco": 4.95,
+      "validade": "2026-11-25",
+      "condicao": "CPF cadastrado",
+      "fonte": "Site oficial Supermarket",
+      "encarte": "https://redesupermarket.com.br/ofertas/",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "supermarket-maca-gala-850-g-com-cpf",
+      "mercado": "Supermarket",
+      "produto": "Maçã Gala 850 g (com CPF cadastrado)",
+      "preco": 4.95,
+      "validade": "2026-11-25",
+      "condicao": "CPF cadastrado",
+      "fonte": "Site oficial Supermarket",
+      "encarte": "https://redesupermarket.com.br/ofertas/",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "supermarket-uva-vermelha-500-g-com-cpf",
+      "mercado": "Supermarket",
+      "produto": "Uva vermelha 500 g (com CPF cadastrado)",
+      "preco": 6.95,
+      "validade": "2026-11-25",
+      "condicao": "CPF cadastrado",
+      "fonte": "Site oficial Supermarket",
+      "encarte": "https://redesupermarket.com.br/ofertas/",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "supermarket-banana-prata-kg-com-cpf-cadastrado",
+      "mercado": "Supermarket",
+      "produto": "Banana Prata (kg) (com CPF cadastrado)",
+      "preco": 6.98,
+      "validade": "2026-11-25",
+      "condicao": "CPF cadastrado",
+      "fonte": "Site oficial Supermarket",
+      "encarte": "https://redesupermarket.com.br/ofertas/",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "supermarket-pessego-kg-com-cpf-cadastrado",
+      "mercado": "Supermarket",
+      "produto": "Pêssego (kg) (com CPF cadastrado)",
+      "preco": 8.98,
+      "validade": "2026-11-25",
+      "condicao": "CPF cadastrado",
+      "fonte": "Site oficial Supermarket",
+      "encarte": "https://redesupermarket.com.br/ofertas/",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "supermarket-alho-kg-com-cpf-cadastrado",
+      "mercado": "Supermarket",
+      "produto": "Alho (kg) (com CPF cadastrado)",
+      "preco": 18.9,
+      "validade": "2026-11-25",
+      "condicao": "CPF cadastrado",
+      "fonte": "Site oficial Supermarket",
+      "encarte": "https://redesupermarket.com.br/ofertas/",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "supermarket-ovos-brancos-20-unidades-com-cpf",
+      "mercado": "Supermarket",
+      "produto": "Ovos brancos 20 unidades (com CPF cadastrado)",
+      "preco": 9.98,
+      "validade": "2026-11-25",
+      "condicao": "CPF cadastrado",
+      "fonte": "Site oficial Supermarket",
+      "encarte": "https://redesupermarket.com.br/ofertas/",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "supermarket-carre-suino-congelado-kg-com-cpf",
+      "mercado": "Supermarket",
+      "produto": "Carré suíno congelado (kg) (com CPF cadastrado)",
+      "preco": 14.97,
+      "validade": "2026-11-25",
+      "condicao": "CPF cadastrado",
+      "fonte": "Site oficial Supermarket",
+      "encarte": "https://redesupermarket.com.br/ofertas/",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "supermarket-file-de-coxa-sobrecoxa-de-frango",
+      "mercado": "Supermarket",
+      "produto": "Filé de coxa/sobrecoxa de frango Lar (kg) (com CPF cadastrado)",
+      "preco": 13.97,
+      "validade": "2026-11-25",
+      "condicao": "CPF cadastrado",
+      "fonte": "Site oficial Supermarket",
+      "encarte": "https://redesupermarket.com.br/ofertas/",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "supermarket-leite-elege-uht-1-l-com",
+      "mercado": "Supermarket",
+      "produto": "Leite Elegê UHT 1 L (com CPF cadastrado)",
+      "preco": 4.47,
+      "validade": "2026-11-25",
+      "condicao": "CPF cadastrado",
+      "fonte": "Site oficial Supermarket",
+      "encarte": "https://redesupermarket.com.br/ofertas/",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "supermarket-ace-ou-invicto-1-5-1",
+      "mercado": "Supermarket",
+      "produto": "Ace ou Invicto 1,5/1,6 kg (com CPF cadastrado)",
+      "preco": 9.98,
+      "validade": "2026-11-25",
+      "condicao": "CPF cadastrado",
+      "fonte": "Site oficial Supermarket",
+      "encarte": "https://redesupermarket.com.br/ofertas/",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "supermarket-omo-3-l-com-cpf-cadastrado",
+      "mercado": "Supermarket",
+      "produto": "OMO 3 L (com CPF cadastrado)",
+      "preco": 29.9,
+      "validade": "2026-11-25",
+      "condicao": "CPF cadastrado",
+      "fonte": "Site oficial Supermarket",
+      "encarte": "https://redesupermarket.com.br/ofertas/",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "supermarket-toalhas-meu-bebe-100-unidades-com",
+      "mercado": "Supermarket",
+      "produto": "Toalhas Meu Bebê 100 unidades (com CPF cadastrado)",
+      "preco": 7.98,
+      "validade": "2026-11-25",
+      "condicao": "CPF cadastrado",
+      "fonte": "Site oficial Supermarket",
+      "encarte": "https://redesupermarket.com.br/ofertas/",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "mundial-bacalhau-morhua-legitimo-kg",
+      "mercado": "Mundial",
+      "produto": "Bacalhau Morhua legítimo (kg)",
+      "preco": 159.8,
+      "validade": "2026-11-26",
+      "condicao": "",
+      "fonte": "Site oficial Mundial",
+      "encarte": "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "mundial-vodka-grey-goose-750-ml-app",
+      "mercado": "Mundial",
+      "produto": "Vodka Grey Goose 750 ml (app Mundial Total)",
+      "preco": 99.9,
+      "validade": "2026-12-02",
+      "condicao": "app Mundial Total",
+      "fonte": "Site oficial Mundial",
+      "encarte": "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas",
+      "preco_sem_condicao": null
+    },
+    {
+      "id": "mundial-frigideira-de-inducao-tramontina-inox-app",
+      "mercado": "Mundial",
+      "produto": "Frigideira de indução Tramontina inox (app Mundial Total)",
+      "preco": 129.9,
+      "validade": "2026-11-29",
+      "condicao": "app Mundial Total",
+      "fonte": "Site oficial Mundial",
+      "encarte": "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas",
+      "preco_sem_condicao": 149.9
+    },
+    {
+      "id": "mundial-amendoas-sem-casca-importadas-a-granel",
+      "mercado": "Mundial",
+      "produto": "Amêndoas sem casca importadas a granel (kg) (app Mundial Total)",
+      "preco": 105.9,
+      "validade": "2026-12-02",
+      "condicao": "app Mundial Total",
+      "fonte": "Site oficial Mundial",
+      "encarte": "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas",
+      "preco_sem_condicao": 129.8
+    },
+    {
+      "id": "mundial-nozes-sem-casca-importadas-a-granel",
+      "mercado": "Mundial",
+      "produto": "Nozes sem casca importadas a granel (kg) (app Mundial Total)",
+      "preco": 105.9,
+      "validade": "2026-12-02",
+      "condicao": "app Mundial Total",
+      "fonte": "Site oficial Mundial",
+      "encarte": "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas",
+      "preco_sem_condicao": 129.9
+    },
+    {
+      "id": "mundial-cerveja-heineken-barril-5-l-app",
+      "mercado": "Mundial",
+      "produto": "Cerveja Heineken barril 5 L (app Mundial Total)",
+      "preco": 99.9,
+      "validade": "2026-11-29",
+      "condicao": "app Mundial Total",
+      "fonte": "Site oficial Mundial",
+      "encarte": "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas",
+      "preco_sem_condicao": 119.9
+    },
+    {
+      "id": "prezunic-ovos-vermelhos-happy-eggs-20-unidades",
+      "mercado": "Prezunic",
+      "produto": "Ovos vermelhos Happy Eggs 20 unidades (com Clube Prezunic)",
+      "preco": 13.99,
+      "validade": "2026-11-25",
+      "condicao": "Clube Prezunic",
+      "fonte": "Encarte oficial Prezunic (OCR)",
+      "encarte": "https://www.prezunic.com.br/encartes",
+      "preco_sem_condicao": 15.99
+    },
+    {
+      "id": "prezunic-alho-a-granel-kg-com-clube",
+      "mercado": "Prezunic",
+      "produto": "Alho a granel (kg) (com Clube Prezunic)",
+      "preco": 17.99,
+      "validade": "2026-11-25",
+      "condicao": "Clube Prezunic",
+      "fonte": "Encarte oficial Prezunic (OCR)",
+      "encarte": "https://www.prezunic.com.br/encartes",
+      "preco_sem_condicao": 22.99
+    },
+    {
+      "id": "prezunic-carne-moida-friboi-congelada-500-g",
+      "mercado": "Prezunic",
+      "produto": "Carne moída Friboi congelada 500 g (com Clube Prezunic)",
+      "preco": 13.98,
+      "validade": "2026-11-25",
+      "condicao": "Clube Prezunic",
+      "fonte": "Encarte oficial Prezunic (OCR)",
+      "encarte": "https://www.prezunic.com.br/encartes",
+      "preco_sem_condicao": 16.99
+    },
+    {
+      "id": "prezunic-acem-ou-paleta-bovina-maturatta-kg",
+      "mercado": "Prezunic",
+      "produto": "Acém ou paleta bovina Maturatta (kg) (com Clube Prezunic)",
+      "preco": 36.98,
+      "validade": "2026-11-26",
+      "condicao": "Clube Prezunic",
+      "fonte": "Encarte oficial Prezunic (OCR)",
+      "encarte": "https://www.prezunic.com.br/encartes",
+      "preco_sem_condicao": 42.99
+    },
+    {
+      "id": "prezunic-coracao-da-alcatra-maturatta-kg-com",
+      "mercado": "Prezunic",
+      "produto": "Coração da alcatra Maturatta (kg) (com Clube Prezunic)",
+      "preco": 59.98,
+      "validade": "2026-11-26",
+      "condicao": "Clube Prezunic",
+      "fonte": "Encarte oficial Prezunic (OCR)",
+      "encarte": "https://www.prezunic.com.br/encartes",
+      "preco_sem_condicao": 69.99
+    },
+    {
+      "id": "prezunic-contrafile-tradicional-ou-file-de-costela",
+      "mercado": "Prezunic",
+      "produto": "Contrafilé tradicional ou filé de costela Maturatta (kg) (com Clube Prezunic)",
+      "preco": 52.98,
+      "validade": "2026-11-26",
+      "condicao": "Clube Prezunic",
+      "fonte": "Encarte oficial Prezunic (OCR)",
+      "encarte": "https://www.prezunic.com.br/encartes",
+      "preco_sem_condicao": 62.99
+    },
+    {
+      "id": "prezunic-sobrecoxa-de-frango-seara-ou-sadia",
+      "mercado": "Prezunic",
+      "produto": "Sobrecoxa de frango Seara ou Sadia congelada 1 kg (com Clube Prezunic)",
+      "preco": 12.98,
+      "validade": "2026-11-26",
+      "condicao": "Clube Prezunic",
+      "fonte": "Encarte oficial Prezunic (OCR)",
+      "encarte": "https://www.prezunic.com.br/encartes",
+      "preco_sem_condicao": 15.99
+    },
+    {
+      "id": "prezunic-hamburguer-perdigao-congelado-672-g-com",
+      "mercado": "Prezunic",
+      "produto": "Hambúrguer Perdigão congelado 672 g (com Clube Prezunic)",
+      "preco": 13.99,
+      "validade": "2026-11-26",
+      "condicao": "Clube Prezunic",
+      "fonte": "Encarte oficial Prezunic (OCR)",
+      "encarte": "https://www.prezunic.com.br/encartes",
+      "preco_sem_condicao": 17.99
+    },
+    {
+      "id": "prezunic-linguica-de-pernil-perdigao-kg-com",
+      "mercado": "Prezunic",
+      "produto": "Linguiça de pernil Perdigão (kg) (com Clube Prezunic)",
+      "preco": 14.99,
+      "validade": "2026-11-26",
+      "condicao": "Clube Prezunic",
+      "fonte": "Encarte oficial Prezunic (OCR)",
+      "encarte": "https://www.prezunic.com.br/encartes",
+      "preco_sem_condicao": 19.99
+    },
+    {
+      "id": "prezunic-oleo-de-soja-liza-ou-soya",
+      "mercado": "Prezunic",
+      "produto": "Óleo de soja Liza ou Soya 900 ml (com Clube Prezunic)",
+      "preco": 7.99,
+      "validade": "2026-11-26",
+      "condicao": "Clube Prezunic",
+      "fonte": "Encarte oficial Prezunic (OCR)",
+      "encarte": "https://www.prezunic.com.br/encartes",
+      "preco_sem_condicao": 8.79
+    }
+  ]
+}

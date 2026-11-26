@@ -149,7 +149,56 @@ h1 {
 
 .atalhos button:active { background: var(--verde-claro); }
 
+.filtros { margin-top: 14px; }
+
+.filtro-condicao {
+  width: 100%;
+  min-height: 52px;
+  padding: 8px 16px;
+  font: inherit;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--acento-texto);
+  background: var(--campo);
+  border: 2px solid var(--campo);
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.filtro-condicao.filtro--ativo {
+  color: #fff;
+  background: var(--verde-escuro);
+  border-color: rgba(255, 255, 255, .65);
+}
+
 main { padding: 18px 14px 8px; }
+
+.avisos { display: grid; gap: 10px; margin: 0 4px 14px; }
+
+.aviso {
+  padding: 12px 14px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 14px;
+}
+
+.aviso--leve {
+  color: var(--acento-texto);
+  background: var(--verde-claro);
+  border: 1px solid var(--verde);
+}
+
+.aviso--atencao {
+  color: #6d3b00;
+  background: #fff2d6;
+  border: 1px solid #d99000;
+}
+
+body.tema-escuro .aviso--atencao {
+  color: #ffd89a;
+  background: #3a2b12;
+  border-color: #a8741a;
+}
 
 .status {
   margin: 0 4px 14px;
@@ -256,13 +305,27 @@ main { padding: 18px 14px 8px; }
   line-height: 1.25;
 }
 
-.oferta__preco {
+.oferta__precos {
   flex: none;
+  max-width: 48%;
+  text-align: right;
+}
+
+.oferta__preco {
   font-size: 27px;
   font-weight: 800;
   color: var(--verde);
   white-space: nowrap;
 }
+
+.oferta__preco-alternativo {
+  margin: 4px 0 0;
+  font-size: 14px;
+  line-height: 1.25;
+  color: var(--texto-fraco);
+}
+
+.oferta__preco-alternativo strong { color: var(--acento-texto); }
 
 .oferta__validade {
   margin: 10px 0 14px;
@@ -279,7 +342,7 @@ main { padding: 18px 14px 8px; }
 
 .oferta__selo {
   display: inline-block;
-  margin-bottom: 8px;
+  margin: 0 6px 8px 0;
   padding: 3px 10px;
   font-size: 14px;
   font-weight: 800;
@@ -287,6 +350,29 @@ main { padding: 18px 14px 8px; }
   background: #c62828;
   border-radius: 20px;
 }
+
+.oferta__selo--condicao { background: #8a4b00; }
+
+.oferta__selo--sem { background: var(--verde); }
+
+body.tema-escuro .oferta__selo--condicao { background: #b8741f; }
+
+.oferta__fonte {
+  margin: -4px 0 12px;
+  font-size: 14px;
+  color: var(--texto-fraco);
+}
+
+.oferta__fonte strong { color: var(--texto); }
+
+.oferta__fonte--agregador {
+  padding-left: 10px;
+  border-left: 3px solid #d99000;
+}
+
+.oferta__fonte--agregador strong { color: #8a4b00; }
+
+body.tema-escuro .oferta__fonte--agregador strong { color: #ffcf87; }
 
 .oferta__variacao {
   display: block;
@@ -370,9 +456,16 @@ footer { padding: 6px 14px calc(28px + env(safe-area-inset-bottom)); }
   cursor: pointer;
 }
 
+.botao-secundario + .botao-secundario { margin-top: 10px; }
+
+.botao-secundario:disabled { opacity: .6; cursor: wait; }
+
 .mensagem { min-height: 1em; font-weight: 700; }
 .mensagem.erro { color: #b3261e; }
 .mensagem.ok { color: var(--verde); }
+.mensagem.atencao { color: #8a4b00; }
+
+body.tema-escuro .mensagem.atencao { color: #ffcf87; }
 
 .rodape { text-align: center; font-size: 15px; color: var(--texto-fraco); }
 
