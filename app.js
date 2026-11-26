@@ -4,29 +4,49 @@
 // (por exemplo, ao abrir o index.html direto do celular via file://).
 // Mantenha igual ao ofertas.json quando atualizar a lista.
 const DADOS_EXEMPLO = [
-  { mercado: "Guanabara", produto: "Arroz Tio João 5 kg", preco: 27.95, validade: "2026-11-25", encarte: "https://www.catalogosofertas.com.br/ofertas/arroz/supermercados-guanabara" },
-  { mercado: "Guanabara", produto: "Leite UHT desnatado ou semidesnatado", preco: 3.99, validade: "2026-11-25", encarte: "https://www.catalogosofertas.com.br/ofertas/leite/supermercados-guanabara" },
-  { mercado: "Guanabara", produto: "Carne moída Friboi tubete 500 g", preco: 16.98, validade: "2026-11-25", encarte: "https://www.catalogosofertas.com.br/ofertas/carne/supermercados-guanabara" },
-  { mercado: "Guanabara", produto: "Biscoito recheado maltado Piraquê 85 g", preco: 1.79, validade: "2026-11-25", encarte: "https://www.catalogosofertas.com.br/ofertas/biscoito/supermercados-guanabara" },
-  { mercado: "Supermarket", produto: "Leite Elegê UHT 1 L", preco: 4.47, validade: "2026-11-25", encarte: "https://redesupermarket.com.br/ofertas/" },
-  { mercado: "Supermarket", produto: "Ovos brancos 20 unidades", preco: 9.98, validade: "2026-11-25", encarte: "https://redesupermarket.com.br/ofertas/" },
-  { mercado: "Supermarket", produto: "Carré suíno congelado (kg)", preco: 14.97, validade: "2026-11-25", encarte: "https://redesupermarket.com.br/ofertas/" },
-  { mercado: "Supermarket", produto: "Filé de coxa/sobrecoxa de frango Lar (kg)", preco: 13.97, validade: "2026-11-25", encarte: "https://redesupermarket.com.br/ofertas/" },
-  { mercado: "Supermarket", produto: "Banana Prata (kg)", preco: 6.98, validade: "2026-11-25", encarte: "https://redesupermarket.com.br/ofertas/" },
-  { mercado: "Mundial", produto: "Refresco Parati 15 g (app Mundial Total)", preco: 0.85, validade: "2026-12-02", encarte: "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas" },
-  { mercado: "Mundial", produto: "Biscoito Parati 85 g (app Mundial Total)", preco: 1.77, validade: "2026-12-02", encarte: "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas" },
-  { mercado: "Mundial", produto: "Chuchu a granel (kg) (app Mundial Total)", preco: 1.98, validade: "2026-11-25", encarte: "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas" },
-  { mercado: "Mundial", produto: "Farinha de trigo Farina 1 kg (app Mundial Total)", preco: 2.87, validade: "2026-12-02", encarte: "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas" },
-  { mercado: "Mundial", produto: "Molho de tomate Knorr sachê 300 g (app Mundial Total)", preco: 2.68, validade: "2026-12-02", encarte: "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas" },
-  { mercado: "Bom Desconto", produto: "Margarina Cremosy 500 g (com Clube)", preco: 4.99, validade: "2026-11-24", encarte: "https://supermercadosbomdesconto.com.br/" },
-  { mercado: "Bom Desconto", produto: "Requeijão Itambé Cremoso copo 200 g (com Clube)", preco: 8.98, validade: "2026-11-24", encarte: "https://supermercadosbomdesconto.com.br/" },
-  { mercado: "Bom Desconto", produto: "Salsicha Hot Dog Perdigão (kg) (com Clube)", preco: 8.98, validade: "2026-11-24", encarte: "https://supermercadosbomdesconto.com.br/" },
-  { mercado: "Bom Desconto", produto: "Hambúrguer Sadia Tradicional ou Churrasco 672 g (com Clube)", preco: 13.98, validade: "2026-11-24", encarte: "https://supermercadosbomdesconto.com.br/" },
-  { mercado: "Bom Desconto", produto: "Arroz Agulhinha Tchê 5 kg (com Clube)", preco: 16.98, validade: "2026-11-24", encarte: "https://supermercadosbomdesconto.com.br/" },
-  { mercado: "Bom Desconto", produto: "Mortadela Ouro Perdigão (kg) (com Clube)", preco: 21.98, validade: "2026-11-24", encarte: "https://supermercadosbomdesconto.com.br/" }
+  { mercado: "Guanabara", produto: "Arroz Tio João 5 kg (preço segundo Catalogosofertas)", preco: 27.95, validade: "2026-11-25", encarte: "https://www.supermercadosguanabara.com.br/encarte" },
+  { mercado: "Guanabara", produto: "Leite UHT desnatado ou semidesnatado (preço segundo Catalogosofertas)", preco: 3.99, validade: "2026-11-25", encarte: "https://www.supermercadosguanabara.com.br/encarte" },
+  { mercado: "Guanabara", produto: "Carne moída Friboi tubete 500 g (preço segundo Catalogosofertas)", preco: 16.98, validade: "2026-11-25", encarte: "https://www.supermercadosguanabara.com.br/encarte" },
+  { mercado: "Guanabara", produto: "Biscoito recheado maltado Piraquê 85 g (preço segundo Catalogosofertas)", preco: 1.79, validade: "2026-11-25", encarte: "https://www.supermercadosguanabara.com.br/encarte" },
+  { mercado: "Supermarket", produto: "Cenoura, abacate ou melão amarelo (kg) (com CPF cadastrado)", preco: 3.99, validade: "2026-11-25", encarte: "https://redesupermarket.com.br/ofertas/" },
+  { mercado: "Supermarket", produto: "Abóbora, aipim ou laranja pera (kg) (com CPF cadastrado)", preco: 2.98, validade: "2026-11-25", encarte: "https://redesupermarket.com.br/ofertas/" },
+  { mercado: "Supermarket", produto: "Manga Palmer (kg) (com CPF cadastrado)", preco: 4.95, validade: "2026-11-25", encarte: "https://redesupermarket.com.br/ofertas/" },
+  { mercado: "Supermarket", produto: "Maçã Gala 850 g (com CPF cadastrado)", preco: 4.95, validade: "2026-11-25", encarte: "https://redesupermarket.com.br/ofertas/" },
+  { mercado: "Supermarket", produto: "Uva vermelha 500 g (com CPF cadastrado)", preco: 6.95, validade: "2026-11-25", encarte: "https://redesupermarket.com.br/ofertas/" },
+  { mercado: "Supermarket", produto: "Banana Prata (kg) (com CPF cadastrado)", preco: 6.98, validade: "2026-11-25", encarte: "https://redesupermarket.com.br/ofertas/" },
+  { mercado: "Supermarket", produto: "Pêssego (kg) (com CPF cadastrado)", preco: 8.98, validade: "2026-11-25", encarte: "https://redesupermarket.com.br/ofertas/" },
+  { mercado: "Supermarket", produto: "Alho (kg) (com CPF cadastrado)", preco: 18.9, validade: "2026-11-25", encarte: "https://redesupermarket.com.br/ofertas/" },
+  { mercado: "Supermarket", produto: "Ovos brancos 20 unidades (com CPF cadastrado)", preco: 9.98, validade: "2026-11-25", encarte: "https://redesupermarket.com.br/ofertas/" },
+  { mercado: "Supermarket", produto: "Carré suíno congelado (kg) (com CPF cadastrado)", preco: 14.97, validade: "2026-11-25", encarte: "https://redesupermarket.com.br/ofertas/" },
+  { mercado: "Supermarket", produto: "Filé de coxa/sobrecoxa de frango Lar (kg) (com CPF cadastrado)", preco: 13.97, validade: "2026-11-25", encarte: "https://redesupermarket.com.br/ofertas/" },
+  { mercado: "Supermarket", produto: "Leite Elegê UHT 1 L (com CPF cadastrado)", preco: 4.47, validade: "2026-11-25", encarte: "https://redesupermarket.com.br/ofertas/" },
+  { mercado: "Supermarket", produto: "Ace ou Invicto 1,5/1,6 kg (com CPF cadastrado)", preco: 9.98, validade: "2026-11-25", encarte: "https://redesupermarket.com.br/ofertas/" },
+  { mercado: "Supermarket", produto: "OMO 3 L (com CPF cadastrado)", preco: 29.9, validade: "2026-11-25", encarte: "https://redesupermarket.com.br/ofertas/" },
+  { mercado: "Supermarket", produto: "Toalhas Meu Bebê 100 unidades (com CPF cadastrado)", preco: 7.98, validade: "2026-11-25", encarte: "https://redesupermarket.com.br/ofertas/" },
+  { mercado: "Mundial", produto: "Bacalhau Morhua legítimo (kg)", preco: 159.8, validade: "2026-11-26", encarte: "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas" },
+  { mercado: "Mundial", produto: "Vodka Grey Goose 750 ml (app Mundial Total)", preco: 139.9, validade: "2026-12-02", encarte: "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas" },
+  { mercado: "Mundial", produto: "Frigideira de indução Tramontina inox (app Mundial Total)", preco: 129.9, validade: "2026-11-29", encarte: "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas" },
+  { mercado: "Mundial", produto: "Amêndoas sem casca importadas a granel (kg) (app Mundial Total)", preco: 105.9, validade: "2026-12-02", encarte: "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas" },
+  { mercado: "Mundial", produto: "Nozes sem casca importadas a granel (kg) (app Mundial Total)", preco: 105.9, validade: "2026-12-02", encarte: "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas" },
+  { mercado: "Mundial", produto: "Cerveja Heineken barril 5 L (app Mundial Total)", preco: 99.9, validade: "2026-11-29", encarte: "https://www.supermercadosmundial.com.br/departamentos/categoria/ofertas" },
+  { mercado: "Prezunic", produto: "Ovos vermelhos Happy Eggs 20 unidades (com Clube Prezunic)", preco: 13.99, validade: "2026-11-25", encarte: "https://www.prezunic.com.br/encartes" },
+  { mercado: "Prezunic", produto: "Alho a granel (kg) (com Clube Prezunic)", preco: 17.99, validade: "2026-11-25", encarte: "https://www.prezunic.com.br/encartes" },
+  { mercado: "Prezunic", produto: "Carne moída Friboi congelada 500 g (com Clube Prezunic)", preco: 13.98, validade: "2026-11-25", encarte: "https://www.prezunic.com.br/encartes" },
+  { mercado: "Prezunic", produto: "Acém ou paleta bovina Maturatta (kg) (com Clube Prezunic)", preco: 36.98, validade: "2026-11-26", encarte: "https://www.prezunic.com.br/encartes" },
+  { mercado: "Prezunic", produto: "Coração da alcatra Maturatta (kg) (com Clube Prezunic)", preco: 59.98, validade: "2026-11-26", encarte: "https://www.prezunic.com.br/encartes" },
+  { mercado: "Prezunic", produto: "Contrafilé tradicional ou filé de costela Maturatta (kg) (com Clube Prezunic)", preco: 52.98, validade: "2026-11-26", encarte: "https://www.prezunic.com.br/encartes" },
+  { mercado: "Prezunic", produto: "Sobrecoxa de frango Seara ou Sadia congelada 1 kg (com Clube Prezunic)", preco: 12.98, validade: "2026-11-26", encarte: "https://www.prezunic.com.br/encartes" },
+  { mercado: "Prezunic", produto: "Hambúrguer Perdigão congelado 672 g (com Clube Prezunic)", preco: 13.99, validade: "2026-11-26", encarte: "https://www.prezunic.com.br/encartes" },
+  { mercado: "Prezunic", produto: "Linguiça de pernil Perdigão (kg) (com Clube Prezunic)", preco: 14.99, validade: "2026-11-26", encarte: "https://www.prezunic.com.br/encartes" },
+  { mercado: "Prezunic", produto: "Óleo de soja Liza ou Soya 900 ml (com Clube Prezunic)", preco: 7.99, validade: "2026-11-26", encarte: "https://www.prezunic.com.br/encartes" }
 ];
 
 const CHAVE_LOCAL = "ofertas-da-semana-dados";
+const CHAVE_HISTORICO = "ofertas-da-semana-historico";
+const CHAVE_TEMA = "ofertas-da-semana-tema";
+
+let mudancasPreco = {};
+
 const el = (tag, classe, texto) => {
   const node = document.createElement(tag);
   if (classe) node.className = classe;
@@ -118,6 +138,18 @@ function estaVencida(oferta) {
   return emOrdem(validade, hojeLocal()) < 0;
 }
 
+function diasParaVencer(oferta) {
+  const validade = dataParaComparacao(oferta.validade);
+  if (!datasSaoValidas(validade)) return null;
+  const inicio = new Date(hojeLocal().ano, hojeLocal().mes - 1, hojeLocal().dia);
+  const fim = new Date(validade.ano, validade.mes - 1, validade.dia);
+  return Math.round((fim - inicio) / 86400000);
+}
+
+function eUltimoDia(oferta) {
+  return diasParaVencer(oferta) === 0;
+}
+
 function formatarValidade(oferta) {
   const validade = dataParaComparacao(oferta.validade);
   if (datasSaoValidas(validade)) {
@@ -147,6 +179,116 @@ function aceitaLocalStorage() {
   }
 }
 
+function chaveOferta(oferta) {
+  return semAcento(oferta.mercado) + "|" + semAcento(oferta.produto);
+}
+
+function assinaturaDaLista(lista) {
+  return lista.map(oferta => `${chaveOferta(oferta)}:${oferta.preco}`).sort().join("|");
+}
+
+function atualizarHistorico(lista) {
+  if (!aceitaLocalStorage()) return {};
+  const assinatura = assinaturaDaLista(lista);
+  let anteriores = {};
+
+  try {
+    const salvo = JSON.parse(localStorage.getItem(CHAVE_HISTORICO) || "null");
+    if (salvo && Array.isArray(salvo.itens)) {
+      if (salvo.assinatura === assinatura) return salvo.mudancas || {};
+      salvo.itens.forEach(item => {
+        const chave = chaveOferta(item);
+        if (chave && typeof item.preco === "number") anteriores[chave] = item.preco;
+      });
+    }
+  } catch (_) { /* histórico inválido começa do zero */ }
+
+  const mudancas = {};
+  lista.forEach(oferta => {
+    const anterior = anteriores[chaveOferta(oferta)];
+    if (typeof anterior === "number" && typeof oferta.preco === "number" && Math.abs(anterior - oferta.preco) > 0.001) {
+      mudancas[chaveOferta(oferta)] = anterior;
+    }
+  });
+
+  try {
+    localStorage.setItem(CHAVE_HISTORICO, JSON.stringify({
+      assinatura,
+      itens: lista.map(oferta => ({
+        mercado: oferta.mercado,
+        produto: oferta.produto,
+        preco: oferta.preco
+      })),
+      mudancas
+    }));
+  } catch (_) { /* sem espaço: o app segue sem histórico */ }
+
+  return mudancas;
+}
+
+function produtoBase(produto) {
+  return semAcento(produto)
+    .replace(/\([^)]*\)/g, "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .split(" ")[0]
+    .replace(/s$/, "");
+}
+
+function criarComparador(validas) {
+  const grupos = new Map();
+  validas.forEach(oferta => {
+    const chave = produtoBase(oferta.produto);
+    if (!chave) return;
+    if (!grupos.has(chave)) grupos.set(chave, new Map());
+    const porMercado = grupos.get(chave);
+    const atual = porMercado.get(oferta.mercado);
+    if (!atual || (oferta.preco ?? Infinity) < (atual.preco ?? Infinity)) {
+      porMercado.set(oferta.mercado, oferta);
+    }
+  });
+
+  const comparaveis = [...grupos.entries()].filter(([, porMercado]) => porMercado.size >= 2);
+  if (!comparaveis.length) return null;
+
+  const secao = el("section", "comparador");
+  secao.append(
+    el("h2", "comparador__titulo", "Compare entre mercados"),
+    el("p", "comparador__dica", "Mesmo produto, menor preço em cada rede:")
+  );
+
+  comparaveis.forEach(([chave, porMercado]) => {
+    const bloco = el("div", "comparador__item");
+    const titulo = chave.charAt(0).toUpperCase() + chave.slice(1);
+    const menor = Math.min(...[...porMercado.values()].map(oferta => oferta.preco ?? Infinity));
+    const linhas = el("div", "comparador__linhas");
+
+    [...porMercado.values()]
+      .sort((a, b) => (a.preco ?? Infinity) - (b.preco ?? Infinity))
+      .forEach(oferta => {
+        const destino = linkSeguro(oferta.encarte);
+        const linha = el(destino ? "a" : "div",
+          "comparador__linha" + (oferta.preco === menor ? " comparador__linha--melhor" : ""));
+        if (destino) {
+          linha.href = destino;
+          linha.target = "_blank";
+          linha.rel = "noopener noreferrer";
+        }
+        linha.append(
+          el("span", "comparador__mercado", oferta.mercado),
+          el("span", "comparador__detalhe", oferta.produto),
+          el("strong", "comparador__preco", formatarPreco(oferta.preco))
+        );
+        linhas.append(linha);
+      });
+
+    bloco.append(el("h3", "comparador__produto", titulo), linhas);
+    secao.append(bloco);
+  });
+
+  return secao;
+}
+
 async function carregarOfertas() {
   if (aceitaLocalStorage()) {
     try {
@@ -171,6 +313,11 @@ async function carregarOfertas() {
 
 function criarCartao(oferta, mostrarMercado) {
   const cartao = el("article", "oferta");
+  if (eUltimoDia(oferta)) {
+    cartao.classList.add("oferta--ultimo-dia");
+    cartao.append(el("span", "oferta__selo", "Último dia"));
+  }
+
   const linha = el("div", "oferta__linha");
   const nome = el("h3", "oferta__produto", oferta.produto);
   const preco = el("div", "oferta__preco", formatarPreco(oferta.preco));
@@ -195,7 +342,17 @@ function criarCartao(oferta, mostrarMercado) {
     acao.disabled = true;
   }
 
-  cartao.append(linha, validade, acao);
+  const partes = [linha, validade];
+
+  const anterior = mudancasPreco[chaveOferta(oferta)];
+  if (typeof anterior === "number" && typeof oferta.preco === "number" && Math.abs(anterior - oferta.preco) > 0.001) {
+    const caiu = oferta.preco < anterior;
+    partes.push(el("p", `oferta__variacao oferta__variacao--${caiu ? "baixou" : "subiu"}`,
+      `${caiu ? "Caiu" : "Subiu"} de ${formatarPreco(anterior)}`));
+  }
+
+  partes.push(acao);
+  cartao.append(...partes);
   return cartao;
 }
 
@@ -241,7 +398,11 @@ function renderizar() {
   }
 
   status.textContent = `${validas.length} ${validas.length === 1 ? "oferta válida" : "ofertas válidas"} nesta semana.` +
-    (vencidas ? ` ${vencidas} vencida${vencidas === 1 ? "" : "s"} foi${vencidas === 1 ? "" : "ram"} escondida${vencidas === 1 ? "" : "s"}.` : "");
+    (vencidas ? ` ${vencidas} vencida${vencidas === 1 ? "" : "s"} foi${vencidas === 1 ? "" : "ram"} escondida${vencidas === 1 ? "" : "s"}.` : "") +
+    " Ordenadas por validade.";
+
+  const comparador = criarComparador(validas);
+  if (comparador) lista.append(comparador);
 
   const grupos = new Map();
   validas.forEach(oferta => {
@@ -261,10 +422,38 @@ function renderizar() {
     const grade = el("div", "lista-ofertas");
     itens
       .slice()
-      .sort((a, b) => (a.preco ?? Infinity) - (b.preco ?? Infinity))
+      .sort((a, b) =>
+        (diasParaVencer(a) ?? Infinity) - (diasParaVencer(b) ?? Infinity) ||
+        (a.preco ?? Infinity) - (b.preco ?? Infinity))
       .forEach(oferta => grade.append(criarCartao(oferta, false)));
     secao.append(titulo, grade);
     lista.append(secao);
+  });
+}
+
+function configurarTema() {
+  const botao = document.getElementById("tema");
+  const meta = document.querySelector('meta[name="theme-color"]');
+  let escuro = !!(window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
+
+  try {
+    const salvo = localStorage.getItem(CHAVE_TEMA);
+    if (salvo === "escuro") escuro = true;
+    if (salvo === "claro") escuro = false;
+  } catch (_) { /* usa a preferência do sistema */ }
+
+  const aplicar = () => {
+    document.body.classList.toggle("tema-escuro", escuro);
+    botao.textContent = escuro ? "☀️" : "🌙";
+    botao.setAttribute("aria-label", escuro ? "Ativar modo claro" : "Ativar modo escuro");
+    if (meta) meta.setAttribute("content", escuro ? "#0a3a2b" : "#0b6b4f");
+  };
+
+  aplicar();
+  botao.addEventListener("click", () => {
+    escuro = !escuro;
+    try { localStorage.setItem(CHAVE_TEMA, escuro ? "escuro" : "claro"); } catch (_) {}
+    aplicar();
   });
 }
 
@@ -335,6 +524,7 @@ function configurarEventos() {
         if (aceitaLocalStorage()) localStorage.setItem(CHAVE_LOCAL, JSON.stringify(normalizados));
         atualizarBotaoRestaurar();
         ofertas = normalizados;
+        mudancasPreco = atualizarHistorico(normalizados);
         renderizar();
         mensagem.className = "mensagem ok";
         mensagem.textContent = `Lista atualizada: ${normalizados.length} ofertas.`;
@@ -354,9 +544,11 @@ function configurarEventos() {
 }
 
 async function iniciar() {
+  configurarTema();
   configurarEventos();
   const carregadas = await carregarOfertas();
   ofertas = carregadas.dados.map(normalizarOferta).filter(Boolean);
+  mudancasPreco = atualizarHistorico(ofertas);
   renderizar();
 
   if (

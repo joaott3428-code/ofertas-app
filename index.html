@@ -21,7 +21,10 @@
         <h1>Ofertas da Semana</h1>
         <p class="subtitulo">Veja os preços dos mercados em um só lugar.</p>
       </div>
-      <div class="sacola" aria-hidden="true">🛒</div>
+      <div class="cabecalho__acoes">
+        <button id="tema" class="botao-tema" type="button" aria-label="Ativar modo escuro">🌙</button>
+        <div class="sacola" aria-hidden="true">🛒</div>
+      </div>
     </div>
 
     <label class="busca__label" for="busca">O que você procura?</label>
@@ -50,6 +53,8 @@
       <summary>Como usar e como atualizar</summary>
       <div class="ajuda__conteudo">
         <p><strong>Buscar:</strong> digite o nome do produto. Aparecem as ofertas de todos os mercados, da menor para a maior preço.</p>
+        <p><strong>Na lista:</strong> as ofertas que terminam hoje ganham o selo “Último dia” e vêm primeiro em cada mercado. Quando o mesmo produto aparece em mais de um mercado, ele também entra em “Compare entre mercados”, com o menor preço de cada rede.</p>
+        <p><strong>Histórico:</strong> ao trocar a lista semanal, o app guarda a anterior no celular e mostra “caiu de” ou “subiu de” quando o preço muda. Na primeira vez não há comparação ainda.</p>
         <p><strong>Atualizar a lista:</strong> se o site estiver publicado, basta atualizar o <code>ofertas.json</code> no computador. Se estiver fora do ar, toque em “Escolher arquivo ofertas.json” e selecione a versão nova no celular. Para voltar a usar a lista do site, toque em “Voltar à lista publicada”.</p>
         <p><strong>Como app:</strong> no navegador, use “Adicionar à tela inicial” (Chrome) ou “Compartilhar → Adicionar à Tela de Início” (iPhone).</p>
         <button id="atualizar" class="botao-secundario" type="button">Escolher arquivo ofertas.json</button>
